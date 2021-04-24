@@ -1,0 +1,49 @@
+{
+  "AIML Starter Template": {
+    "prefix": "!aiml:boilerplate",
+    "description": "Boilerplate for AIML",
+    "body": [
+      "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "<aiml>",
+      "<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->",
+      "<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->",
+      "<category>",
+      "<pattern>${1:defaultText}</pattern>",
+      "<template>",
+      "$0",
+      "</template>",
+      "</category>",
+      "</aiml>"
+    ],
+    "scope": "java,aiml"
+  },
+  "AIML Category Snippet": {
+    "prefix": "!aiml:category",
+    "description": "AIML Category Snippet",
+    "body": [
+      "<category>",
+      "<pattern>${1:defaultText}</pattern>",
+      "<template>",
+      "$0",
+      "</template>",
+      "</category>"
+    ],
+    "scope": "java,aiml"
+  },
+  "AIML Pattern Snippet": {
+    "prefix": "!aiml-pattern",
+    "description": "AIML Pattern Snippet",
+    "body": [
+      "<pattern>${1:defaultText}</pattern>"
+    ],
+    "scope": "java,aiml"
+  },
+  "AIML Template Snippet": {
+    "prefix": "!aiml:template",
+    "description": "AIML Template Snippet",
+    "body": [
+      "<template>${1:defaultText}</template>"
+    ],
+    "scope": "java,aiml"
+  }
+}

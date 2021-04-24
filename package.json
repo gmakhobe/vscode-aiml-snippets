@@ -1,0 +1,31 @@
+{
+    "name": "aiml-snippets",
+    "displayName": "AIML Snippets",
+    "description": "Artificial Intelligent Modelling Language snippets.",
+    "author": {
+        "name": "Given Makhobela",
+        "email": "nzilanegiven@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "publisher": "gmakhobe",
+    "license": "MIT",
+    "icon": "images/logo.png",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "aiml",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
