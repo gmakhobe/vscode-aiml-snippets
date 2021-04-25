@@ -1,7 +1,6 @@
 {
   "AIML Starter Template": {
-    "prefix": "!aiml:boilerplate",
-    "description": "Boilerplate for AIML",
+    "prefix": "aimlBoilerplate",
     "body": [
       "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
       "<aiml>",
@@ -15,10 +14,10 @@
       "</category>",
       "</aiml>"
     ],
-    "scope": "java,aiml"
+    "description": "Boilerplate for AIML",
   },
   "AIML Category Snippet": {
-    "prefix": "!aiml:category",
+    "prefix": "aimlCategory",
     "description": "AIML Category Snippet",
     "body": [
       "<category>",
@@ -27,23 +26,20 @@
       "$0",
       "</template>",
       "</category>"
-    ],
-    "scope": "java,aiml"
+    ]
   },
   "AIML Pattern Snippet": {
-    "prefix": "!aiml-pattern",
+    "prefix": "aimlPattern",
     "description": "AIML Pattern Snippet",
     "body": [
       "<pattern>${1:defaultText}</pattern>"
-    ],
-    "scope": "java,aiml"
+    ]
   },
   "AIML Template Snippet": {
-    "prefix": "!aiml:template",
+    "prefix": "aimlTemplate",
     "description": "AIML Template Snippet",
     "body": [
       "<template>${1:defaultText}</template>"
-    ],
-    "scope": "java,aiml"
+    ]
   }
 }

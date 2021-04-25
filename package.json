@@ -21,6 +21,18 @@
         "Snippets"
     ],
     "contributes": {
+        "languages": [
+            {
+                "id": "aiml",
+                "aliases": [
+                  "aiml"
+                ],
+                "extensions": [
+                  ".aiml"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
         "snippets": [
             {
                 "language": "aiml",
